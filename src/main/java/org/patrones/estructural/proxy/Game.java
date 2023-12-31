@@ -1,0 +1,7 @@
+package org.patrones.estructural.proxy;
+
+public interface Game {
+  void save(String name);
+  Stats load(String name);
+
+}
